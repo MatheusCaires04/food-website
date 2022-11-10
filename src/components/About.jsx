@@ -45,7 +45,7 @@ const About = () => {
             </div>
             <div className="bg-light-bg flex flex-col items-center p-3 gap-2">
               <img src={icon3} alt="Icon of a chef" className="w-[40%]" />
-              <span>Experts Chefs</span>
+              <span className="text-center">Experts Chefs</span>
             </div>
           </div>
         </div>
