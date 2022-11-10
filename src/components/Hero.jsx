@@ -8,7 +8,7 @@ import "swiper/css";
 
 const Hero = () => {
   return (
-    <div className="pt-20 w-full h-screen">
+    <div className="pt-20 w-full h-screen ">
       <Swiper spaceBetween={0} slidesPerView={1} className="h-full">
         {HeroSlide.map((item, index) => {
           return (

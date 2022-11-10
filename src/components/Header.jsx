@@ -42,7 +42,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="w-full h-20 bg-white shadow-shadowG px-8 fixed">
+    <div className="w-full h-20 bg-white shadow-shadowG px-8 fixed z-[9999]">
       <div className="h-full max-w-[1200px] mx-auto flex items-center justify-between">
         <a
           href="#"
@@ -73,8 +73,8 @@ const Header = () => {
           </div>
           <ul
             className={`${
-              !openMenu ? "-right-full" : "right-0 left-0"
-            } fixed top-20 bottom-0 flex flex-col gap-2 items-center justify-center text-center duration-700 ease-in-out`}
+              !openMenu ? "-right-full" : "right-0 left-0 z-50"
+            } fixed top-20 bottom-0 flex flex-col gap-2 items-center bg-white justify-center text-center duration-700 ease-in-out`}
           >
             {linksHeader.map((item, index) => {
               return (
