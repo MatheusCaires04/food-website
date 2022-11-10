@@ -1,3 +1,5 @@
+import About from "./components/About";
+import Food from "./components/Food";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 
@@ -6,6 +8,8 @@ function App() {
     <>
       <Header />
       <Hero />
+      <About />
+      <Food />
     </>
   );
 }

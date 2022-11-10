@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <div className="pt-20 w-full h-screen ">
       <Swiper
-        spaceBetween={0}
+        loop={true}
         slidesPerView={1}
         modules={[Navigation]}
         navigation={true}
@@ -28,8 +28,8 @@ const Hero = () => {
                   className="absolute top-0 left-0 w-full h-full -z-20 object-cover"
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-black/70 -z-10" />
-                <div className="px-4 md:px-0 flex flex-col items-center w-[90%] sm:w-[25rem] md:w-[33rem]  text-center">
-                  <span className="text-light-white text-2xl font-semibold">
+                <div className="px-4 md:px-0 flex flex-col items-center w-[90%] sm:w-[25rem] md:w-[33rem]  text-center animate__slide">
+                  <span className="text-light-white text-2xl font-semibold ">
                     {item.subtitle}
                   </span>
                   <h1 className="text-white text-6xl sm:text-7xl md:text-8xl font-semibold mt-2 mb-6">
