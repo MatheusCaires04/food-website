@@ -33,7 +33,7 @@ const About = () => {
                 alt="Icon of an aluminum tray where food can be placed"
                 className="w-[40%]"
               />
-              <span>Food & Drinks</span>
+              <span className="text-center">Food & Drinks</span>
             </div>
             <div className="bg-light-bg flex flex-col items-center p-3 gap-2">
               <img
@@ -41,7 +41,7 @@ const About = () => {
                 alt="Icon of a drink bowl with a sliced piece of lemon on top of the bowl"
                 className="w-[40%]"
               />
-              <span>Quality Food</span>
+              <span className="text-center">Quality Food</span>
             </div>
             <div className="bg-light-bg flex flex-col items-center p-3 gap-2">
               <img src={icon3} alt="Icon of a chef" className="w-[40%]" />
