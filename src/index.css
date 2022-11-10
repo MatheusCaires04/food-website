@@ -7,3 +7,13 @@
 html {
   font-family: "Dosis", sans-serif;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  @apply bg-white text-light-black w-10 h-10;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  @apply text-xl font-bold;
+}
