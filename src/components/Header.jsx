@@ -42,7 +42,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="w-full h-20 bg-white shadow-shadowG px-8 fixed z-[9999]">
+    <div className="w-full h-20 bg-white shadow-shadowG px-8 fixed z-[100]">
       <div className="h-full max-w-[1200px] mx-auto flex items-center justify-between">
         <a
           href="#"

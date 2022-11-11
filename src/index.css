@@ -52,3 +52,7 @@ html {
 .hover__gallery:hover > div > div {
   @apply opacity-100;
 }
+
+.food > div > .lg-react-element {
+  @apply grid grid-cols-2 md:grid-cols-3 gap-6 mt-6;
+}

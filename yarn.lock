@@ -849,6 +849,11 @@ lightgallery.js@^1.2.0:
   resolved "https://registry.yarnpkg.com/lightgallery.js/-/lightgallery.js-1.4.0.tgz#f4b43b01b2acce43bd7e6d8dbcf1d5541cd2fb03"
   integrity sha512-TK7auNMSz0sPjotq/VtKH/fe8GPkVRlmFf8F3zVsbFccLJL4r3U1VON+IggyE8Wy04QwbFQxTIIMqL7blibGSA==
 
+lightgallery@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/lightgallery/-/lightgallery-2.7.0.tgz#faa1ff6c7338557f39a29a63228b77793afad95d"
+  integrity sha512-iozIJNxKl3wPWcspCmRdaSYpYy3PjloC8BN0PDwaDOoTA1hsu1IhZdWQWI5cGgMJvnksP94/smElMwn2HS5d3Q==
+
 lilconfig@^2.0.5, lilconfig@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/lilconfig/-/lilconfig-2.0.6.tgz#32a384558bd58af3d4c6e077dd1ad1d397bc69d4"
