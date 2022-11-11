@@ -48,3 +48,7 @@ html {
     @apply opacity-100 scale-100 bg-white shadow-shadowG;
   }
 }
+
+.hover__gallery:hover > div > div {
+  @apply opacity-100;
+}

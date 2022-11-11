@@ -2,21 +2,21 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 
+import CardFood from "./CardFood";
 import { food } from "./ListFood";
+import Title from "./Title";
+import Subtitle from "./Subtitle";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import CardFood from "./CardFood";
 
 const Food = () => {
   return (
     <div className="w-full px-8 py-10 bg-light-bg">
       <div className="max-w-[1200px] mx-auto text-center">
-        <h3 className="text-peru text-2xl font-semibold">Popular Dishes</h3>
-        <h1 className="text-black text-5xl font-semibold">
-          Our Delicious Food
-        </h1>
+        <Subtitle text="Popular Dishes" />
+        <Title text="Our Delicious Food" />
         <Swiper
           breakpoints={{
             0: {
