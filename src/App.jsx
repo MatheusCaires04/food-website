@@ -3,6 +3,7 @@ import Food from "./components/Food";
 import GalleryFood from "./components/GalleryFood";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import MenuFood from "./components/MenuFood";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Food />
       <GalleryFood />
+      <MenuFood />
     </>
   );
 }
