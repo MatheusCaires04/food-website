@@ -35,7 +35,7 @@ const Food = () => {
             clickable: true,
           }}
           modules={[Pagination, Navigation]}
-          className="pb-10 mt-20 food__slide w-[80%] md:w-full"
+          className="pb-10 mt-10 food__slide w-[80%] md:w-full"
         >
           {food.map((item, index) => {
             return (
