@@ -82,6 +82,7 @@ const Header = () => {
                   href={item.url}
                   key={index}
                   className="w-[80%] sm:w-[60%] py-2 text-xl font-semibold border border-peru border-l-8 border-l-peru hover:bg-peru hover:text-white duration-150"
+                  onClick={handleMenu}
                 >
                   {item.name}
                 </a>

@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 
 const Hero = () => {
   return (
-    <div className="pt-20 w-full h-screen ">
+    <div className="pt-20 w-full h-screen" id="home">
       <Swiper
         loop={true}
         slidesPerView={1}

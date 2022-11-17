@@ -12,7 +12,7 @@ import "lightgallery/css/lg-thumbnail.css";
 
 const GalleryFood = () => {
   return (
-    <div className="w-full px-8 py-10 food">
+    <div className="w-full px-8 py-10 food" id="gallery">
       <div className="max-w-[1200px] mx-auto text-center">
         <Subtitle text="Our Gallery" color="text-peru" />
         <Title text="Our Untold Stories" color="text-black" />

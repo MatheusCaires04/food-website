@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 
 const MenuFood = () => {
   return (
-    <div className="w-full px-8 py-10 bg-light-bg">
+    <div className="w-full px-8 py-10 bg-light-bg" id="menu">
       <div className="max-w-[1200px] mx-auto text-center">
         <Subtitle text="Our Menu" color="text-peru" />
         <Title text="Our Popular  Dishes" color="text-black" />

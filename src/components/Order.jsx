@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const Order = () => {
   return (
-    <div className="w-full px-8 py-10 text-center bg-peru">
+    <div className="w-full px-8 py-10 text-center bg-peru" id="order">
       <div className="max-w-[1200px] mx-auto">
         <Subtitle text="Our Order" color="text-white" />
         <Title text="Fast Home Delivery" color="text-white" />

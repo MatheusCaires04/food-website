@@ -13,7 +13,7 @@ import "swiper/css/navigation";
 
 const Blogs = () => {
   return (
-    <div className="w-full px-8 py-10 bg-light-bg">
+    <div className="w-full px-8 py-10 bg-light-bg" id="blog">
       <div className="max-w-[1200px] mx-auto text-center">
         <Subtitle text="Our Blogs" color="text-peru" />
         <Title text="Our Latest Posts" color="text-black" />

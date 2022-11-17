@@ -6,6 +6,8 @@
 
 html {
   font-family: "Dosis", sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 .swiper-button-prev,

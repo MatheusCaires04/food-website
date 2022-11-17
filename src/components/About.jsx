@@ -8,7 +8,7 @@ import icon3 from "/assets/about-icon-3.png";
 
 const About = () => {
   return (
-    <div className="w-full px-8 py-10">
+    <div className="w-full px-8 py-10" id="about">
       <div className="grid grid-cols-1 md:grid-cols-2 max-w-[1200px] mx-auto">
         <div className="flex justify-center md:justify-start">
           <img
