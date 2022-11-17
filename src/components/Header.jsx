@@ -41,6 +41,8 @@ const Header = () => {
     },
   ];
 
+  const closeMenu = () => setOpenMenu(!openMenu);
+
   return (
     <div className="w-full h-20 bg-white shadow-shadowG px-8 fixed z-[100]">
       <div className="h-full max-w-[1200px] mx-auto flex items-center justify-between">
@@ -79,10 +81,10 @@ const Header = () => {
             {linksHeader.map((item, index) => {
               return (
                 <a
-                  href={item.url}
                   key={index}
+                  href={item.url}
+                  onClick={closeMenu}
                   className="w-[80%] sm:w-[60%] py-2 text-xl font-semibold border border-peru border-l-8 border-l-peru hover:bg-peru hover:text-white duration-150"
-                  onClick={handleMenu}
                 >
                   {item.name}
                 </a>
