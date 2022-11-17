@@ -14,8 +14,8 @@ const GalleryFood = () => {
   return (
     <div className="w-full px-8 py-10 food">
       <div className="max-w-[1200px] mx-auto text-center">
-        <Subtitle text="Our Gallery" />
-        <Title text="Our Untold Stories" />
+        <Subtitle text="Our Gallery" color="text-peru" />
+        <Title text="Our Untold Stories" color="text-black" />
         <LightGallery>
           {ListGalleryFood.map((item, index) => {
             return (

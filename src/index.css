@@ -60,3 +60,39 @@ html {
 .swiper-pagination span {
   @apply bg-peru;
 }
+
+form > div > div > div {
+  @apply w-full flex flex-col;
+}
+
+form > div > div > div > input {
+  @apply border-[.1rem] outline-none px-2 py-1 text-base;
+}
+
+form > div > div > div > input:focus {
+  @apply bg-black text-white;
+}
+
+form > div > div > div > label {
+  @apply text-start text-base;
+}
+
+form > button {
+  @apply w-36 !important;
+}
+
+.footer__grid__icons1 > div {
+  @apply flex flex-col items-center;
+}
+
+.footer__grid__icons1 > div > .icon {
+  @apply bg-peru text-2xl p-2 rounded-full;
+}
+
+.footer__grid__icons1 > div > strong {
+  @apply mt-2 mb-1;
+}
+
+.icon__social__media a {
+  @apply bg-black text-white text-lg p-2 hover:bg-peru hover:text-black duration-150;
+}

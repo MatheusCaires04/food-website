@@ -1,22 +1,22 @@
 import React from "react";
+import Subtitle from "./Subtitle";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 
-import CardFood from "./CardFood";
-import { food } from "./ListFood";
 import Title from "./Title";
-import Subtitle from "./Subtitle";
+import { Posts } from "./Posts";
+import CardBlog from "./CardBlog";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-const Food = () => {
+const Blogs = () => {
   return (
     <div className="w-full px-8 py-10 bg-light-bg">
       <div className="max-w-[1200px] mx-auto text-center">
-        <Subtitle text="Popular Dishes" color="text-peru" />
-        <Title text="Our Delicious Food" color="text-black" />
+        <Subtitle text="Our Blogs" color="text-peru" />
+        <Title text="Our Latest Posts" color="text-black" />
         <Swiper
           breakpoints={{
             0: {
@@ -29,21 +29,23 @@ const Food = () => {
               slidesPerView: 3,
             },
           }}
-          spaceBetween={30}
+          spaceBetween={40}
           loop={true}
           pagination={{
             clickable: true,
           }}
           modules={[Pagination, Navigation]}
-          className="pb-10 mt-10 food__slide w-[80%] md:w-full"
+          className="mt-10 pb-12 w-[80%] md:w-full"
         >
-          {food.map((item, index) => {
+          {Posts.map((item, index) => {
             return (
-              <SwiperSlide key={index}>
-                <CardFood
-                  imageFood={item.url}
-                  nameFood={item.food}
-                  priceFood={item.price}
+              <SwiperSlide key={index} className="bg-white shadow-shadowG">
+                <CardBlog
+                  imagePost={item.url}
+                  titlePost={item.title}
+                  dataPost={item.data}
+                  userPost={item.userPost}
+                  textPost={item.text}
                 />
               </SwiperSlide>
             );
@@ -54,4 +56,4 @@ const Food = () => {
   );
 };
 
-export default Food;
+export default Blogs;
